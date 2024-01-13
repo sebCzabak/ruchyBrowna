@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruchy Browna Metoda Monte-Carlo</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div>
+    <label for="numSteps">Podaj ilość kroków:</label>
+    <input type="number" id="numSteps" min="1">
+    <button onclick="runExperiment()">Przeprowadź eksperyment</button>
+    <button onclick="saveResults()">Zachowaj wyniki</button>
+    
+    <input type="file" id="fileInput" accept=".txt">
+    <button onclick="loadFile()">Wczytaj Dane</button>
+    
+    <canvas id="myChart" width="800" height="400"></canvas>
+    <!-- <button id="showResultsButton" onclick="showResults()">Analiza</button> -->
+    <div id="resultSection">
+        <h2>Wyniki Analizy</h2>
+        <button id="showResultsButton"onclick="showResults()">Analiza</button>
+        <p id="meanPosition"></p>
+        <p id="meanDisplacment"></p>
+    </div>
+</div>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

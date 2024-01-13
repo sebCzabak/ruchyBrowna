@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  },
+  "name": "ruchybrowna",
+  "version": "1.0.0",
+  "description": "Program do liczenia ruchów Browna za pomocą metody Monte-Carlo",
+  "main": "script.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sebastian Czabak",
+  "license": "ISC"
+}
